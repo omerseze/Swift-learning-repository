@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		150DAC382B7E190E00D1567E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150DAC372B7E190E00D1567E /* AppDelegate.swift */; };
+		150DAC3A2B7E190E00D1567E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150DAC392B7E190E00D1567E /* SceneDelegate.swift */; };
+		150DAC3C2B7E190E00D1567E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150DAC3B2B7E190E00D1567E /* ViewController.swift */; };
+		150DAC3F2B7E190E00D1567E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150DAC3D2B7E190E00D1567E /* Main.storyboard */; };
+		150DAC412B7E191100D1567E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150DAC402B7E191100D1567E /* Assets.xcassets */; };
+		150DAC442B7E191100D1567E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150DAC422B7E191100D1567E /* LaunchScreen.storyboard */; };
+		150DAC4F2B7E191200D1567E /* gestureRecogizersAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150DAC4E2B7E191200D1567E /* gestureRecogizersAppTests.swift */; };
+		150DAC592B7E191200D1567E /* gestureRecogizersAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150DAC582B7E191200D1567E /* gestureRecogizersAppUITests.swift */; };
+		150DAC5B2B7E191200D1567E /* gestureRecogizersAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150DAC5A2B7E191200D1567E /* gestureRecogizersAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		150DAC4B2B7E191200D1567E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 150DAC2C2B7E190E00D1567E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 150DAC332B7E190E00D1567E;
+			remoteInfo = gestureRecogizersApp;
+		};
+		150DAC552B7E191200D1567E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 150DAC2C2B7E190E00D1567E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 150DAC332B7E190E00D1567E;
+			remoteInfo = gestureRecogizersApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		150DAC342B7E190E00D1567E /* gestureRecogizersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gestureRecogizersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		150DAC372B7E190E00D1567E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		150DAC392B7E190E00D1567E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		150DAC3B2B7E190E00D1567E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		150DAC3E2B7E190E00D1567E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		150DAC402B7E191100D1567E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		150DAC432B7E191100D1567E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		150DAC452B7E191100D1567E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		150DAC4A2B7E191200D1567E /* gestureRecogizersAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gestureRecogizersAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		150DAC4E2B7E191200D1567E /* gestureRecogizersAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gestureRecogizersAppTests.swift; sourceTree = "<group>"; };
+		150DAC542B7E191200D1567E /* gestureRecogizersAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gestureRecogizersAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		150DAC582B7E191200D1567E /* gestureRecogizersAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gestureRecogizersAppUITests.swift; sourceTree = "<group>"; };
+		150DAC5A2B7E191200D1567E /* gestureRecogizersAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gestureRecogizersAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		150DAC312B7E190E00D1567E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150DAC472B7E191200D1567E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150DAC512B7E191200D1567E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		150DAC2B2B7E190E00D1567E = {
+			isa = PBXGroup;
+			children = (
+				150DAC362B7E190E00D1567E /* gestureRecogizersApp */,
+				150DAC4D2B7E191200D1567E /* gestureRecogizersAppTests */,
+				150DAC572B7E191200D1567E /* gestureRecogizersAppUITests */,
+				150DAC352B7E190E00D1567E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		150DAC352B7E190E00D1567E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				150DAC342B7E190E00D1567E /* gestureRecogizersApp.app */,
+				150DAC4A2B7E191200D1567E /* gestureRecogizersAppTests.xctest */,
+				150DAC542B7E191200D1567E /* gestureRecogizersAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		150DAC362B7E190E00D1567E /* gestureRecogizersApp */ = {
+			isa = PBXGroup;
+			children = (
+				150DAC372B7E190E00D1567E /* AppDelegate.swift */,
+				150DAC392B7E190E00D1567E /* SceneDelegate.swift */,
+				150DAC3B2B7E190E00D1567E /* ViewController.swift */,
+				150DAC3D2B7E190E00D1567E /* Main.storyboard */,
+				150DAC402B7E191100D1567E /* Assets.xcassets */,
+				150DAC422B7E191100D1567E /* LaunchScreen.storyboard */,
+				150DAC452B7E191100D1567E /* Info.plist */,
+			);
+			path = gestureRecogizersApp;
+			sourceTree = "<group>";
+		};
+		150DAC4D2B7E191200D1567E /* gestureRecogizersAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				150DAC4E2B7E191200D1567E /* gestureRecogizersAppTests.swift */,
+			);
+			path = gestureRecogizersAppTests;
+			sourceTree = "<group>";
+		};
+		150DAC572B7E191200D1567E /* gestureRecogizersAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				150DAC582B7E191200D1567E /* gestureRecogizersAppUITests.swift */,
+				150DAC5A2B7E191200D1567E /* gestureRecogizersAppUITestsLaunchTests.swift */,
+			);
+			path = gestureRecogizersAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		150DAC332B7E190E00D1567E /* gestureRecogizersApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 150DAC5E2B7E191200D1567E /* Build configuration list for PBXNativeTarget "gestureRecogizersApp" */;
+			buildPhases = (
+				150DAC302B7E190E00D1567E /* Sources */,
+				150DAC312B7E190E00D1567E /* Frameworks */,
+				150DAC322B7E190E00D1567E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gestureRecogizersApp;
+			productName = gestureRecogizersApp;
+			productReference = 150DAC342B7E190E00D1567E /* gestureRecogizersApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		150DAC492B7E191200D1567E /* gestureRecogizersAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 150DAC612B7E191200D1567E /* Build configuration list for PBXNativeTarget "gestureRecogizersAppTests" */;
+			buildPhases = (
+				150DAC462B7E191200D1567E /* Sources */,
+				150DAC472B7E191200D1567E /* Frameworks */,
+				150DAC482B7E191200D1567E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				150DAC4C2B7E191200D1567E /* PBXTargetDependency */,
+			);
+			name = gestureRecogizersAppTests;
+			productName = gestureRecogizersAppTests;
+			productReference = 150DAC4A2B7E191200D1567E /* gestureRecogizersAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		150DAC532B7E191200D1567E /* gestureRecogizersAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 150DAC642B7E191200D1567E /* Build configuration list for PBXNativeTarget "gestureRecogizersAppUITests" */;
+			buildPhases = (
+				150DAC502B7E191200D1567E /* Sources */,
+				150DAC512B7E191200D1567E /* Frameworks */,
+				150DAC522B7E191200D1567E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				150DAC562B7E191200D1567E /* PBXTargetDependency */,
+			);
+			name = gestureRecogizersAppUITests;
+			productName = gestureRecogizersAppUITests;
+			productReference = 150DAC542B7E191200D1567E /* gestureRecogizersAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		150DAC2C2B7E190E00D1567E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					150DAC332B7E190E00D1567E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					150DAC492B7E191200D1567E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 150DAC332B7E190E00D1567E;
+					};
+					150DAC532B7E191200D1567E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 150DAC332B7E190E00D1567E;
+					};
+				};
+			};
+			buildConfigurationList = 150DAC2F2B7E190E00D1567E /* Build configuration list for PBXProject "gestureRecogizersApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 150DAC2B2B7E190E00D1567E;
+			productRefGroup = 150DAC352B7E190E00D1567E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				150DAC332B7E190E00D1567E /* gestureRecogizersApp */,
+				150DAC492B7E191200D1567E /* gestureRecogizersAppTests */,
+				150DAC532B7E191200D1567E /* gestureRecogizersAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		150DAC322B7E190E00D1567E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150DAC442B7E191100D1567E /* LaunchScreen.storyboard in Resources */,
+				150DAC412B7E191100D1567E /* Assets.xcassets in Resources */,
+				150DAC3F2B7E190E00D1567E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150DAC482B7E191200D1567E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150DAC522B7E191200D1567E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		150DAC302B7E190E00D1567E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150DAC3C2B7E190E00D1567E /* ViewController.swift in Sources */,
+				150DAC382B7E190E00D1567E /* AppDelegate.swift in Sources */,
+				150DAC3A2B7E190E00D1567E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150DAC462B7E191200D1567E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150DAC4F2B7E191200D1567E /* gestureRecogizersAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150DAC502B7E191200D1567E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150DAC592B7E191200D1567E /* gestureRecogizersAppUITests.swift in Sources */,
+				150DAC5B2B7E191200D1567E /* gestureRecogizersAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		150DAC4C2B7E191200D1567E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 150DAC332B7E190E00D1567E /* gestureRecogizersApp */;
+			targetProxy = 150DAC4B2B7E191200D1567E /* PBXContainerItemProxy */;
+		};
+		150DAC562B7E191200D1567E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 150DAC332B7E190E00D1567E /* gestureRecogizersApp */;
+			targetProxy = 150DAC552B7E191200D1567E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		150DAC3D2B7E190E00D1567E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				150DAC3E2B7E190E00D1567E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		150DAC422B7E191100D1567E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				150DAC432B7E191100D1567E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		150DAC5C2B7E191200D1567E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		150DAC5D2B7E191200D1567E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		150DAC5F2B7E191200D1567E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K92J5MFH85;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = gestureRecogizersApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omersezer.gestureRecogizersApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		150DAC602B7E191200D1567E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K92J5MFH85;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = gestureRecogizersApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omersezer.gestureRecogizersApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		150DAC622B7E191200D1567E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K92J5MFH85;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omersezer.gestureRecogizersAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gestureRecogizersApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gestureRecogizersApp";
+			};
+			name = Debug;
+		};
+		150DAC632B7E191200D1567E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K92J5MFH85;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omersezer.gestureRecogizersAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gestureRecogizersApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gestureRecogizersApp";
+			};
+			name = Release;
+		};
+		150DAC652B7E191200D1567E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K92J5MFH85;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omersezer.gestureRecogizersAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gestureRecogizersApp;
+			};
+			name = Debug;
+		};
+		150DAC662B7E191200D1567E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K92J5MFH85;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omersezer.gestureRecogizersAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gestureRecogizersApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		150DAC2F2B7E190E00D1567E /* Build configuration list for PBXProject "gestureRecogizersApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150DAC5C2B7E191200D1567E /* Debug */,
+				150DAC5D2B7E191200D1567E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		150DAC5E2B7E191200D1567E /* Build configuration list for PBXNativeTarget "gestureRecogizersApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150DAC5F2B7E191200D1567E /* Debug */,
+				150DAC602B7E191200D1567E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		150DAC612B7E191200D1567E /* Build configuration list for PBXNativeTarget "gestureRecogizersAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150DAC622B7E191200D1567E /* Debug */,
+				150DAC632B7E191200D1567E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		150DAC642B7E191200D1567E /* Build configuration list for PBXNativeTarget "gestureRecogizersAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150DAC652B7E191200D1567E /* Debug */,
+				150DAC662B7E191200D1567E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 150DAC2C2B7E190E00D1567E /* Project object */;
+}
