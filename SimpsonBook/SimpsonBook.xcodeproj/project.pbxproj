@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		151DEFD12B83AE700002716B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151DEFD02B83AE700002716B /* AppDelegate.swift */; };
+		151DEFD32B83AE700002716B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151DEFD22B83AE700002716B /* SceneDelegate.swift */; };
+		151DEFD52B83AE700002716B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151DEFD42B83AE700002716B /* ViewController.swift */; };
+		151DEFD82B83AE700002716B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 151DEFD62B83AE700002716B /* Main.storyboard */; };
+		151DEFDA2B83AE730002716B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 151DEFD92B83AE730002716B /* Assets.xcassets */; };
+		151DEFDD2B83AE730002716B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 151DEFDB2B83AE730002716B /* LaunchScreen.storyboard */; };
+		151DEFE82B83AE740002716B /* SimpsonBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151DEFE72B83AE740002716B /* SimpsonBookTests.swift */; };
+		151DEFF22B83AE740002716B /* SimpsonBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151DEFF12B83AE740002716B /* SimpsonBookUITests.swift */; };
+		151DEFF42B83AE740002716B /* SimpsonBookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151DEFF32B83AE740002716B /* SimpsonBookUITestsLaunchTests.swift */; };
+		151DF0012B83B8B30002716B /* detailsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151DF0002B83B8B30002716B /* detailsVc.swift */; };
+		15960CA12B849FAB004C6268 /* simpson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15960CA02B849FAB004C6268 /* simpson.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		151DEFE42B83AE740002716B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 151DEFC52B83AE700002716B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 151DEFCC2B83AE700002716B;
+			remoteInfo = SimpsonBook;
+		};
+		151DEFEE2B83AE740002716B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 151DEFC52B83AE700002716B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 151DEFCC2B83AE700002716B;
+			remoteInfo = SimpsonBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		151DEFCD2B83AE700002716B /* SimpsonBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpsonBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		151DEFD02B83AE700002716B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		151DEFD22B83AE700002716B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		151DEFD42B83AE700002716B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		151DEFD72B83AE700002716B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		151DEFD92B83AE730002716B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		151DEFDC2B83AE730002716B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		151DEFDE2B83AE730002716B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		151DEFE32B83AE740002716B /* SimpsonBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpsonBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		151DEFE72B83AE740002716B /* SimpsonBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonBookTests.swift; sourceTree = "<group>"; };
+		151DEFED2B83AE740002716B /* SimpsonBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpsonBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		151DEFF12B83AE740002716B /* SimpsonBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonBookUITests.swift; sourceTree = "<group>"; };
+		151DEFF32B83AE740002716B /* SimpsonBookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonBookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		151DF0002B83B8B30002716B /* detailsVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsVc.swift; sourceTree = "<group>"; };
+		15960CA02B849FAB004C6268 /* simpson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpson.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		151DEFCA2B83AE700002716B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		151DEFE02B83AE740002716B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		151DEFEA2B83AE740002716B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		151DEFC42B83AE700002716B = {
+			isa = PBXGroup;
+			children = (
+				151DEFCF2B83AE700002716B /* SimpsonBook */,
+				151DEFE62B83AE740002716B /* SimpsonBookTests */,
+				151DEFF02B83AE740002716B /* SimpsonBookUITests */,
+				151DEFCE2B83AE700002716B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		151DEFCE2B83AE700002716B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				151DEFCD2B83AE700002716B /* SimpsonBook.app */,
+				151DEFE32B83AE740002716B /* SimpsonBookTests.xctest */,
+				151DEFED2B83AE740002716B /* SimpsonBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		151DEFCF2B83AE700002716B /* SimpsonBook */ = {
+			isa = PBXGroup;
+			children = (
+				151DEFD02B83AE700002716B /* AppDelegate.swift */,
+				151DEFD22B83AE700002716B /* SceneDelegate.swift */,
+				151DEFD42B83AE700002716B /* ViewController.swift */,
+				151DF0002B83B8B30002716B /* detailsVc.swift */,
+				15960CA02B849FAB004C6268 /* simpson.swift */,
+				151DEFD62B83AE700002716B /* Main.storyboard */,
+				151DEFD92B83AE730002716B /* Assets.xcassets */,
+				151DEFDB2B83AE730002716B /* LaunchScreen.storyboard */,
+				151DEFDE2B83AE730002716B /* Info.plist */,
+			);
+			path = SimpsonBook;
+			sourceTree = "<group>";
+		};
+		151DEFE62B83AE740002716B /* SimpsonBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				151DEFE72B83AE740002716B /* SimpsonBookTests.swift */,
+			);
+			path = SimpsonBookTests;
+			sourceTree = "<group>";
+		};
+		151DEFF02B83AE740002716B /* SimpsonBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				151DEFF12B83AE740002716B /* SimpsonBookUITests.swift */,
+				151DEFF32B83AE740002716B /* SimpsonBookUITestsLaunchTests.swift */,
+			);
+			path = SimpsonBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		151DEFCC2B83AE700002716B /* SimpsonBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 151DEFF72B83AE740002716B /* Build configuration list for PBXNativeTarget "SimpsonBook" */;
+			buildPhases = (
+				151DEFC92B83AE700002716B /* Sources */,
+				151DEFCA2B83AE700002716B /* Frameworks */,
+				151DEFCB2B83AE700002716B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpsonBook;
+			productName = SimpsonBook;
+			productReference = 151DEFCD2B83AE700002716B /* SimpsonBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		151DEFE22B83AE740002716B /* SimpsonBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 151DEFFA2B83AE740002716B /* Build configuration list for PBXNativeTarget "SimpsonBookTests" */;
+			buildPhases = (
+				151DEFDF2B83AE740002716B /* Sources */,
+				151DEFE02B83AE740002716B /* Frameworks */,
+				151DEFE12B83AE740002716B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				151DEFE52B83AE740002716B /* PBXTargetDependency */,
+			);
+			name = SimpsonBookTests;
+			productName = SimpsonBookTests;
+			productReference = 151DEFE32B83AE740002716B /* SimpsonBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		151DEFEC2B83AE740002716B /* SimpsonBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 151DEFFD2B83AE740002716B /* Build configuration list for PBXNativeTarget "SimpsonBookUITests" */;
+			buildPhases = (
+				151DEFE92B83AE740002716B /* Sources */,
+				151DEFEA2B83AE740002716B /* Frameworks */,
+				151DEFEB2B83AE740002716B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				151DEFEF2B83AE740002716B /* PBXTargetDependency */,
+			);
+			name = SimpsonBookUITests;
+			productName = SimpsonBookUITests;
+			productReference = 151DEFED2B83AE740002716B /* SimpsonBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		151DEFC52B83AE700002716B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					151DEFCC2B83AE700002716B = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					151DEFE22B83AE740002716B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 151DEFCC2B83AE700002716B;
+					};
+					151DEFEC2B83AE740002716B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 151DEFCC2B83AE700002716B;
+					};
+				};
+			};
+			buildConfigurationList = 151DEFC82B83AE700002716B /* Build configuration list for PBXProject "SimpsonBook" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 151DEFC42B83AE700002716B;
+			productRefGroup = 151DEFCE2B83AE700002716B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				151DEFCC2B83AE700002716B /* SimpsonBook */,
+				151DEFE22B83AE740002716B /* SimpsonBookTests */,
+				151DEFEC2B83AE740002716B /* SimpsonBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		151DEFCB2B83AE700002716B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				151DEFDD2B83AE730002716B /* LaunchScreen.storyboard in Resources */,
+				151DEFDA2B83AE730002716B /* Assets.xcassets in Resources */,
+				151DEFD82B83AE700002716B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		151DEFE12B83AE740002716B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		151DEFEB2B83AE740002716B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		151DEFC92B83AE700002716B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				151DEFD52B83AE700002716B /* ViewController.swift in Sources */,
+				15960CA12B849FAB004C6268 /* simpson.swift in Sources */,
+				151DF0012B83B8B30002716B /* detailsVc.swift in Sources */,
+				151DEFD12B83AE700002716B /* AppDelegate.swift in Sources */,
+				151DEFD32B83AE700002716B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		151DEFDF2B83AE740002716B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				151DEFE82B83AE740002716B /* SimpsonBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		151DEFE92B83AE740002716B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				151DEFF22B83AE740002716B /* SimpsonBookUITests.swift in Sources */,
+				151DEFF42B83AE740002716B /* SimpsonBookUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		151DEFE52B83AE740002716B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 151DEFCC2B83AE700002716B /* SimpsonBook */;
+			targetProxy = 151DEFE42B83AE740002716B /* PBXContainerItemProxy */;
+		};
+		151DEFEF2B83AE740002716B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 151DEFCC2B83AE700002716B /* SimpsonBook */;
+			targetProxy = 151DEFEE2B83AE740002716B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		151DEFD62B83AE700002716B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				151DEFD72B83AE700002716B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		151DEFDB2B83AE730002716B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				151DEFDC2B83AE730002716B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		151DEFF52B83AE740002716B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		151DEFF62B83AE740002716B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		151DEFF82B83AE740002716B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K92J5MFH85;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpsonBook/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omersezer.SimpsonBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		151DEFF92B83AE740002716B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K92J5MFH85;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpsonBook/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omersezer.SimpsonBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		151DEFFB2B83AE740002716B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K92J5MFH85;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omersezer.SimpsonBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpsonBook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpsonBook";
+			};
+			name = Debug;
+		};
+		151DEFFC2B83AE740002716B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K92J5MFH85;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omersezer.SimpsonBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpsonBook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpsonBook";
+			};
+			name = Release;
+		};
+		151DEFFE2B83AE740002716B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K92J5MFH85;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omersezer.SimpsonBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpsonBook;
+			};
+			name = Debug;
+		};
+		151DEFFF2B83AE740002716B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K92J5MFH85;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omersezer.SimpsonBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpsonBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		151DEFC82B83AE700002716B /* Build configuration list for PBXProject "SimpsonBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				151DEFF52B83AE740002716B /* Debug */,
+				151DEFF62B83AE740002716B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		151DEFF72B83AE740002716B /* Build configuration list for PBXNativeTarget "SimpsonBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				151DEFF82B83AE740002716B /* Debug */,
+				151DEFF92B83AE740002716B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		151DEFFA2B83AE740002716B /* Build configuration list for PBXNativeTarget "SimpsonBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				151DEFFB2B83AE740002716B /* Debug */,
+				151DEFFC2B83AE740002716B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		151DEFFD2B83AE740002716B /* Build configuration list for PBXNativeTarget "SimpsonBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				151DEFFE2B83AE740002716B /* Debug */,
+				151DEFFF2B83AE740002716B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 151DEFC52B83AE700002716B /* Project object */;
+}
